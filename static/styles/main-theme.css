@@ -1,0 +1,214 @@
+/* Centering bold font sections */
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+hr {
+  width: 90%;
+  height: 1.5px;
+  border-radius: 4px;
+  background-color: #3e3e3e;
+  border-color: #484848;
+  border-style: solid;
+}
+
+/* Set text color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  color: #bebebe;
+}
+
+strong {
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  /* Add space below each FAQ item */
+}
+
+.blank-space {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blank-space+strong {
+  color: #bebebe;
+}
+
+/* Reset default margin and padding */
+body,
+p,
+ul,
+ol {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define general font styles and add padding to the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 17.25px;
+  line-height: 1.6;
+  background-color: #1c1c1c;
+  padding-top: 25px;
+  /* Add padding to the top of the page */
+  padding-bottom: 50px;
+  /* Add padding to the bottom of the page */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding: 20px;
+  background-color: #262626;
+  border-radius: 4px;
+}
+
+.long-words {
+  word-wrap: break-word;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+
+
+.admonition {
+  border-radius: 2.5px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 10px;
+  background-color: #181818;
+}
+
+.admonition-title {
+  font-weight: bold;
+  font-size: 26.5px;
+}
+
+.info {
+  background-color: #2b383e;
+  color: #427ba7;
+}
+
+.info .admonition-title {
+  font-weight: bold;
+  color: #508ca4;
+}
+
+.info h3#site-link-list {
+  color: #508ca4;
+}
+
+.note {
+  background-color: #2d3829;
+  color: #5f805e;
+}
+
+.note .admonition-title {
+  font-weight: bold;
+  color: #628053;
+}
+
+.tang-song {
+  background-color: transparent;
+  border: 3.5px solid;
+  border-color: #0099ff;
+  color: #bebebe;
+}
+
+.tang-song .admonition-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.md-center {
+  text-align: center;
+}
+
+.md-align {
+  display: inline-block;
+}
+
+.h-align {
+  margin-top: 30px;
+}
+
+.headerlink {
+  text-decoration: none;
+  color: #333;
+}
+
+a {
+  color: #4790d8;
+  text-decoration: none;
+  /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+ul ul,
+ol ol {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+code {
+  font-family: Consolas, monospace;
+  color: #2c2c2c;
+  background-color: #cccccc;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+/* Center text surrounded by "->" and "<-" */
+.md-align.md-center:before,
+.md-align.md-center:after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 0;
+  visibility: hidden;
+  /* Hide the pseudo-elements */
+}
