@@ -1,16 +1,18 @@
 /* Centering bold font sections */
 h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 50px; 
 }
 
 h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 34px; 
+  margin-top: 32px; 
+  margin-bottom: 32px; 
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 28px; 
 }
 
 hr {
@@ -35,19 +37,19 @@ li {
 }
 
 strong {
-  font-size: 17px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: 19px; 
+  margin-top: 32px; 
+  margin-bottom: 32px; 
 }
 
 .faq-item {
-  margin-bottom: 20px;
+  margin-bottom: 22px; 
   /* Add space below each FAQ item */
 }
 
 .blank-space {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 27px; 
+  margin-bottom: 27px; 
 }
 
 .blank-space+strong {
@@ -59,7 +61,7 @@ body,
 p,
 ul,
 ol {
-  font-size: 18px;
+  font-size: 20px; 
   margin: 0;
   padding: 0;
 }
@@ -67,19 +69,17 @@ ol {
 /* Define general font styles and add padding to the body */
 body {
   font-family: Arial, sans-serif;
-  font-size: 17.25px;
+  font-size: 19.25px; 
   line-height: 1.6;
   background-color: #1c1c1c;
   padding-top: 25px;
-  /* Add padding to the top of the page */
   padding-bottom: 50px;
-  /* Add padding to the bottom of the page */
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1450px;
   margin: 60px auto 0;
-  padding: 20px;
+  padding: 40px;
   background-color: #262626;
   border-radius: 4px;
 }
@@ -89,35 +89,57 @@ body {
 }
 
 .actions {
-  margin-top: 20px;
+  margin-top: 22px; 
 }
 
-
-/* admonition and boxes */
+/* ----- Admonition and Boxes ----- */
 .image-box {
-  display: inline-block;
-  text-align: center;
-  border-radius: 2.5px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  padding: 10px;
+  display: inline-flex;
+  margin: 14px; 
+  padding: 18px;
   background-color: transparent;
-  border: 3.5px solid;
-  border-color: #3e3e3e;
-  color: #bebebe;
+  border: 3px solid #484848;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-box:not(:last-child) {
+  margin-right: 37px; 
+}
+
+.inner-box p {
+  margin-top: 12px; 
+}
+
+/* Maintains image's aspect ratio */
+.inner-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 22px; 
 }
 
 .admonition {
   border-radius: 2.5px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  padding: 10px;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  padding: 12px; 
   background-color: #181818;
 }
 
 .admonition-title {
   font-weight: bold;
-  font-size: 26.5px;
+  font-size: 29px; 
 }
 
 .info {
@@ -144,14 +166,31 @@ body {
   color: #628053;
 }
 
+/* ----- Project Specific Boxes ----- */
 .tang-song {
+  padding: 22px; 
   background-color: transparent;
-  border: 3.5px solid;
-  border-color: #0099ff;
   color: #bebebe;
+  box-shadow: 0 0 28px #0099ff;
+  margin-bottom: 72px; 
 }
 
 .tang-song .admonition-title {
+  padding-bottom: 12px; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.ghana {
+  padding: 22px; 
+  background-color: transparent;
+  color: #bebebe;
+  box-shadow: 0 0 28px #8800ff;
+  margin-bottom: 72px; 
+}
+
+.ghana .admonition-title {
+  padding-bottom: 12px; 
   text-align: center;
   font-weight: bold;
 }
@@ -167,7 +206,7 @@ body {
 }
 
 .h-align {
-  margin-top: 30px;
+  margin-top: 32px; 
 }
 
 .headerlink {
@@ -188,12 +227,12 @@ a:hover {
 
 ul,
 ol {
-  margin-left: 20px;
+  margin-left: 22px; 
 }
 
 ul ul,
 ol ol {
-  margin-left: 20px;
+  margin-left: 22px; 
 }
 
 ul {
@@ -221,7 +260,7 @@ code {
 .md-align.md-center:after {
   content: '';
   display: inline-block;
-  width: 10px;
+  width: 12px; 
   height: 0;
   visibility: hidden;
   /* Hide the pseudo-elements */
