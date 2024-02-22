@@ -1,2 +1,1 @@
-# social-study-website
-website for SS project!
+**CURRENTLY THE REPOSITORY FOR THIS PROJECT IS ON [GITLAB](https://gitlab.com/itzCozi/social-study-website) DUE TO GITHUB ISSUES WITH MY ACCOUNT**
